@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Zap } from 'lucide-react';
+import { ExternalLink, Github, Link2, Zap } from 'lucide-react';
 
 export default function Projects() {
   const projects = [
@@ -9,23 +9,29 @@ export default function Projects() {
       gradient: 'from-red-600 to-blue-600',
       icon: '🏎️',
       link1: 'https://github.com/'
+      
     },
     {
       title: 'Bingo Battle Royale',
       description: 'Multiplayer bingo game with a competitive environment. Invite your friends and see who can shout BINGO first!',
       tech: ['TypeScript', 'Supabase', 'React', 'Tailwind'],
       gradient: 'from-blue-600 to-yellow-400',
-      icon: '🏆'
+      icon: '🏆',
+      Link1: 'https://github.com/Saimss/Bingo',
+      Link2: 'https://www.saimanghimire.xyz/bingo'
+
     },
     {
       title: 'Cricket Tournament Manager',
       description: 'Create a tournament, manage teams, schedule matches, and track scores with cricket-inspired strategic features.',
       tech: ['React', 'TypeScript', 'Supabase', 'PostgreSQL'],
       gradient: 'from-green-500 to-blue-500',
-      icon: '🏏'
+      icon: '🏏',
+      Link1: 'https://github.com/Saimss/CricStats',
+      Link2: 'https://www.saimanghimire.xyz/cricktracker'
     },
     {
-      title: 'Evolution Tracker Pro',
+      title: 'Evolution Tracker Pro (In Progress)',
       description: 'Personal growth and skill development platform. Track your journey from rookie to champion with gamified progression.',
       tech: ['Next.js', 'Supabase', 'Typescript', 'React'],
       gradient: 'from-yellow-400 to-red-500',
@@ -36,7 +42,9 @@ export default function Projects() {
       description: 'All the latest tech news curated for DeerWalkers who want to know what is going on in DeerWalk.',
       tech: [ 'Supabase', 'TypeScript', 'React'],
       gradient: 'from-purple-600 to-pink-500',
-      icon: '📰'
+      icon: '📰',
+      link2: 'https://www.saimanghimire.xyz/deernews',
+      link1: 'https://github.com/Saimss/DeerNews'
     },
     
   ];
@@ -105,7 +113,7 @@ export default function Projects() {
   </a>
 
   <a
-    href="https://github.com/your/repo"
+    href= {project.link2}
     target="_blank"
     rel="noopener noreferrer"
     className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all duration-300 border border-white/20"
