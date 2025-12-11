@@ -1,3 +1,4 @@
+import { li } from 'framer-motion/client';
 import { ExternalLink, Github, Link2, Zap } from 'lucide-react';
 
 export default function Projects() {
@@ -8,7 +9,8 @@ export default function Projects() {
       tech: ['React', 'Node.js', 'Redis', 'WebSocket'],
       gradient: 'from-red-600 to-blue-600',
       icon: '🏎️',
-      link1: 'https://github.com/'
+      link1: 'https://github.com/',
+      link2: '#'
       
     },
     {
@@ -17,8 +19,8 @@ export default function Projects() {
       tech: ['TypeScript', 'Supabase', 'React', 'Tailwind'],
       gradient: 'from-blue-600 to-yellow-400',
       icon: '🏆',
-      Link1: 'https://github.com/Saimss/Bingo',
-      Link2: 'https://www.saimanghimire.xyz/bingo'
+      link1: 'https://www.saimanghimire.xyz/bingo',
+      link2: 'https://github.com/Saimss/Bingo'
 
     },
     {
@@ -27,15 +29,17 @@ export default function Projects() {
       tech: ['React', 'TypeScript', 'Supabase', 'PostgreSQL'],
       gradient: 'from-green-500 to-blue-500',
       icon: '🏏',
-      Link1: 'https://github.com/Saimss/CricStats',
-      Link2: 'https://www.saimanghimire.xyz/cricktracker'
+      link1: 'https://www.saimanghimire.xyz/cricktracker',
+      link2: 'https://github.com/Saimss/CricStats'
     },
     {
       title: 'Evolution Tracker Pro (In Progress)',
       description: 'Personal growth and skill development platform. Track your journey from rookie to champion with gamified progression.',
       tech: ['Next.js', 'Supabase', 'Typescript', 'React'],
       gradient: 'from-yellow-400 to-red-500',
-      icon: '⚡'
+      icon: '⚡',
+      link1: '#',
+      link2: '#'
     },
     {
       title: 'DeerNews',
@@ -43,8 +47,8 @@ export default function Projects() {
       tech: [ 'Supabase', 'TypeScript', 'React'],
       gradient: 'from-purple-600 to-pink-500',
       icon: '📰',
-      link2: 'https://www.saimanghimire.xyz/deernews',
-      link1: 'https://github.com/Saimss/DeerNews'
+      link2: 'https://github.com/Saimss/DeerNews',
+      link1: 'https://www.saimanghimire.xyz/deernews'
     },
     
   ];
