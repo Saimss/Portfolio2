@@ -3,8 +3,8 @@
     { "source": "/bingo", "destination": "/projects/Bingo/index.html" },
     { "source": "/bingo/(.*)", "destination": "/projects/Bingo/$1" },
 
-    { "source": "/cricktraker", "destination": "/projects/Cricktraker/index.html" },
-    { "source": "/cricktraker/(.*)", "destination": "/projects/Cricktraker/$1" },
+    { "source": "/cricktracker", "destination": "/projects/CrickTracker/index.html" },
+    { "source": "/cricktracker/(.*)", "destination": "/projects/CrickTracker/$1" },
 
     { "source": "/deernews", "destination": "/projects/DeerNews/index.html" },
     { "source": "/deernews/(.*)", "destination": "/projects/DeerNews/$1" }
