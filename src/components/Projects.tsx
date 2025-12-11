@@ -7,7 +7,8 @@ export default function Projects() {
       description: 'Test your reflex speeds by comparing yourself to the lightning-fast reactions of F1 drivers. Compete for the best times!',
       tech: ['React', 'Node.js', 'Redis', 'WebSocket'],
       gradient: 'from-red-600 to-blue-600',
-      icon: '🏎️'
+      icon: '🏎️',
+      link1: 'https://github.com/'
     },
     {
       title: 'Bingo Battle Royale',
@@ -81,7 +82,7 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <div className="flex gap-3">
+                {/* <div className="flex gap-3">
                   <button className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all duration-300 border border-white/20">
                     <ExternalLink className="w-4 h-4" />
                     <span>Demo</span>
@@ -90,7 +91,33 @@ export default function Projects() {
                     <Github className="w-4 h-4" />
                     <span>Code</span>
                   </button>
-                </div>
+                </div> */}
+
+                <div className="flex gap-3">
+  <a
+    href= {project.link1}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all duration-300 border border-white/20"
+  >
+    <ExternalLink className="w-4 h-4" />
+    <span>Demo</span>
+  </a>
+
+  <a
+    href="https://github.com/your/repo"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all duration-300 border border-white/20"
+  >
+    <Github className="w-4 h-4" />
+    <span>Code</span>
+  </a>
+</div>
+                <div className="flex gap-3">
+ 
+</div>
+
               </div>
             </div>
           ))}
