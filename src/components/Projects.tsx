@@ -1,5 +1,5 @@
-import { li } from 'framer-motion/client';
-import { ExternalLink, Github, Link2, Zap } from 'lucide-react';
+
+import { ExternalLink, Github, Zap } from 'lucide-react';
 
 export default function Projects() {
   const projects = [
